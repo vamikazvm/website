@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style>
+        .mainbox {
+            width: 1500px;
+            height: 1000px;
+            background-color: rgb(9, 11, 14);
+            float: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+           
+        }
+
+        .mainbox h1 {
+            color: white;
+            font-size: 60px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            text-shadow: 3px 3px 3px black;
+
+
+        }
+        .mainbox img{
+            height: 800px;
+            width: 1300px;
+            position: relative;
+            left: 200px;
+            top: 100px;
+           
+
+        }
+
+        .smallbox1 {
+            height: 350px;
+            width: 400px;
+            border: 10px double white;
+            margin: 10px;
+           
+            position: relative;
+            bottom: 500px;
+            left: 100px;
+
+        }
+
+        .smallbox1 h4 {
+
+            color: rgb(255, 68, 0);
+            position: relative;
+            top: 20px;
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-shadow: 3px 3px 2px black;
+            text-align: center;
+            
+
+
+        }
+
+        .smallbox1 p {
+            position: relative;
+            top: 20px;
+            padding-left: 40px;
+            padding-right: 40px;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .smallbox2 {
+            height: 350px;
+            width: 400px;
+            border: 10px double white;
+            margin: 10px;
+            position: relative;
+            bottom: 500px;
+            
+            left: 100px;
+        }
+
+        .smallbox2 h4 {
+            position: relative;
+            top: 20px;
+            color: rgb(255, 68, 0);
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-shadow: 3px 3px 2px black;
+            text-align: center;
+        }
+
+        .smallbox2 p {
+            padding-left: 40px;
+            padding-right: 40px;
+            position: relative;
+            top: 20px;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+          .mainbox11 {
+            height: 700px;
+            width: 1500px;
+            background-color:  rgb(29, 31, 36);
+        }
+
+        .mainbox1 {
+            height: 620px;
+            width: 1500px;
+            background-size: cover;
+         }
+
+           .menubox1 h6 {
+            color: white;
+            text-shadow: 10px 3px 3px black;
+            padding-left: 10px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 8px;
+            position: relative;
+            bottom: 25px;
+            right: 5px;
+        }
+
+        .smallbox10 {
+            width: 1500px;
+            height: 700px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+           
+        }
+
+        .bg1 {
+            height: 200px;
+            width: 400px;
+            border: 10px double rgb(238, 187, 76);
+            border-radius: 100px;
+            backdrop-filter: blur(10px);
+            position: relative;
+            top: 50px;
+        }
+
+        .bg1 h4 {
+            color: rgb(255, 68, 0);
+            text-align: center;
+            position: relative;
+            top: 20px;
+            text-shadow: 3px 3px 3px black;
+            font-size: 50px;
+            font-family: 'Segoe UI', Verdana, Tahoma, sans-serif, Verdana, sans-serif;
+
+
+        }
+
+        .bg {
+            width: 500px;
+            height: 500px;
+            position: relative;
+            bottom: 15px;
+            right: 150px;
+
+        }
+
+        .bg img {
+            width: 1400px;
+            height: 600px;
+
+        }
+
+        .smallbox10 h4 {
+            color: rgb(255, 68, 0);
+            text-align: center;
+            text-shadow: 3px 3px 3px black;
+            font-size: 50px;
+            font-family: 'Segoe UI', Verdana, Tahoma, sans-serif, Verdana, sans-serif;
+            position: relative;
+            top: 20px;
+
+        }
+
+
+
+        .menubox1 {
+            background-color: rgb(9, 11, 14);
+         
+        }
+
+        .menubox1 img {
+            width: 50px;
+            height: 60px;
+
+        }
+
+
+        ul {
+            overflow: auto;
+
+
+        }
+
+        li {
+            float: right;
+            list-style: none;
+            margin: 13px 20px;
+        }
+
+        li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+
+        }
+
+        li a:hover {
+            color: rgb(245, 151, 63);
+        }
+
+
+
+
+        .footer {
+            width: 1500px;
+            height: 400px;
+            background-color: rgb(29, 31, 36);
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .foot1 {
+            height: 300px;
+            width: 300px;
+        }
+
+        .logo img {
+            height: 80px;
+            width: 80px;}
+
+        .faq h5 {
+
+            color: antiquewhite;
+            text-shadow: 1px 1px 1px black;
+            position: relative;
+            top: 0px;
+
+        }
+
+        .foot2 {
+            height: 300px;
+            width: 200px;
+        }
+
+        .foot2 h5 {
+            font-size: large;
+            position: relative;
+            left: 50px;
+            top: 10px;
+            color: antiquewhite;
+            text-shadow: 1px 1px 1px black;
+
+
+        }
+
+        .foot2 img {
+            position: relative;
+            top: 20px;
+            height: 65px;
+            width: 190px;
+        }
+
+        .head {
+            width: 1500px;
+            height: 90px;
+            background-color:rgb(9, 11, 14);
+
+        }
+
+        .head h1 {
+            color: white;
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            text-shadow: 3px 3px 3px black;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="mainbox11">
+
+        <div class="mainbox1">
+            <div class="menubox1">
+                <ul> 
+
+                    <li><a href="login.html">LOG IN/SIGN UP</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="menu.html">ORDER NOW</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a class="active" href="health.html">HOME</a></li>
+                    <img src="LOGOO11.png">
+
+
+                </ul>
+            </div>
+            <div class="smallbox10">
+
+                <div class="bg">
+                    <img class="img-responsive" src="back11.png" >
+                    
+                </div>
+                <div class="bg1">
+                    <h4>BUY 1 <br>
+                        GET 1 FREE !</h4>
+                </div>
+            </div>
+
+        </div>
+        <div class="head">
+           
+
+            <h1> About Us
+            </h1>
+        </div>
+
+        <div class="mainbox">
+            <img src="ab222.png">
+
+            <div class="smallbox1">
+                <h4>OUR STORY</h4>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis, est amet necessitatibus
+                    fugiat nemo, sapiente assumenda odio quas quisquam eaque quia, laborum nisi soluta dicta saepe
+                    voluptates quo debitis.<br><br>
+
+                    
+                </p>
+            </div>
+            <div class="smallbox2">
+                <h4>
+                    THE PIZZA</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi est eaque temporibus iste.
+                    Laboriosam, tempora molestias id suscipit facilis minus distinctio, nostrum ratione voluptatibus
+                    voluptatum tempore fugit velit, facere delectus!<br><br>
+                    </p>
+            </div>
+
+
+        </div>
+
+
+        <div class="footer">
+            <div class="foot1">
+                <div class="logo">
+                    <img src="LOGOO22.png">
+                </div>
+
+                <div class="faq">
+                    <h5>Disclaimer</h5>
+                    <h5> Privacy Policy</h5>
+                    <h5>Faq</h5>
+                    <h5>Terms & Conditions</h5>
+                    <h5>Feedback</h5>
+                </div>
+            </div>
+            <div class="foot2">
+                <h5>FInd us on</h5>
+                <img src="con.png">
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
