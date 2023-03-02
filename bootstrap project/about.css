@@ -1,0 +1,280 @@
+.mainbox {
+    width: 1500px;
+    height: 1000px;
+    background-color: rgb(9, 11, 14);
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+
+.mainbox h1 {
+    color: white;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+
+
+}
+.mainbox img{
+    height: 800px;
+    width: 1300px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+   
+
+}
+
+.smallbox1 {
+    height: 350px;
+    width: 400px;
+    border: 10px double white;
+    margin: 10px;
+   
+    position: relative;
+    bottom: 500px;
+    left: 100px;
+
+}
+
+.smallbox1 h4 {
+
+    color: rgb(255, 68, 0);
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 3px 2px black;
+    text-align: center;
+    
+
+
+}
+
+.smallbox1 p {
+    position: relative;
+    top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.smallbox2 {
+    height: 350px;
+    width: 400px;
+    border: 10px double white;
+    margin: 10px;
+    position: relative;
+    bottom: 500px;
+    
+    left: 100px;
+}
+
+.smallbox2 h4 {
+    position: relative;
+    top: 20px;
+    color: rgb(255, 68, 0);
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 3px 2px black;
+    text-align: center;
+}
+
+.smallbox2 p {
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    top: 20px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+  .mainbox11 {
+    height: 700px;
+    width: 1500px;
+    background-color:  rgb(29, 31, 36);
+}
+
+.mainbox1 {
+    height: 620px;
+    width: 1500px;
+    background-size: cover;
+ }
+
+   .menubox1 h6 {
+    color: white;
+    text-shadow: 10px 3px 3px black;
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8px;
+    position: relative;
+    bottom: 25px;
+    right: 5px;
+}
+
+.smallbox10 {
+    width: 1500px;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+   
+}
+
+.bg1 {
+    height: 200px;
+    width: 400px;
+    border: 10px double rgb(238, 187, 76);
+    border-radius: 100px;
+    backdrop-filter: blur(10px);
+    position: relative;
+    top: 50px;
+}
+
+.bg1 h4 {
+    color: rgb(255, 68, 0);
+    text-align: center;
+    position: relative;
+    top: 20px;
+    text-shadow: 3px 3px 3px black;
+    font-size: 50px;
+    font-family: 'Segoe UI', Verdana, Tahoma, sans-serif, Verdana, sans-serif;
+
+
+}
+
+.bg {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    bottom: 15px;
+    right: 150px;
+
+}
+
+.bg img {
+    width: 1400px;
+    height: 600px;
+
+}
+
+.smallbox10 h4 {
+    color: rgb(255, 68, 0);
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    font-size: 50px;
+    font-family: 'Segoe UI', Verdana, Tahoma, sans-serif, Verdana, sans-serif;
+    position: relative;
+    top: 20px;
+
+}
+
+
+
+.menubox1 {
+    background-color: rgb(9, 11, 14);
+ 
+}
+
+.menubox1 img {
+    width: 50px;
+    height: 60px;
+
+}
+
+
+ul {
+    overflow: auto;
+
+
+}
+
+li {
+    float: right;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+
+}
+
+li a:hover {
+    color: rgb(245, 151, 63);
+}
+
+
+
+
+.footer {
+    width: 1500px;
+    height: 400px;
+    background-color: rgb(29, 31, 36);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.foot1 {
+    height: 300px;
+    width: 300px;
+}
+
+.logo img {
+    height: 80px;
+    width: 80px;}
+
+.faq h5 {
+
+    color: antiquewhite;
+    text-shadow: 1px 1px 1px black;
+    position: relative;
+    top: 0px;
+
+}
+
+.foot2 {
+    height: 300px;
+    width: 200px;
+}
+
+.foot2 h5 {
+    font-size: large;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    color: antiquewhite;
+    text-shadow: 1px 1px 1px black;
+
+
+}
+
+.foot2 img {
+    position: relative;
+    top: 20px;
+    height: 65px;
+    width: 190px;
+}
+
+.head {
+    width: 1500px;
+    height: 90px;
+    background-color:rgb(9, 11, 14);
+
+}
+
+.head h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+
+}
